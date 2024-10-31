@@ -1,0 +1,168 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.voting-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #161414; /* Optional: Adjust as needed */
+}
+
+/* Box Styling */
+.voting-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Candidate Block Styling */
+.candidate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f9f9f9;
+}
+
+.candidate img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-right: 1px solid #ddd;
+}
+
+.candidate label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.candidate span {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+/* Input Group Styles */
+.input-group {
+    margin-top: 15px;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Button Styling */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Message Styling */
+#vote-message {
+    color: red;
+    font-size: 14px;
+}
+
+/* Login Box Styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Input Styles */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #666;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Submit Button Styling */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Error Message Styling */
+#error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+}

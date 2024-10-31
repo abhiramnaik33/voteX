@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoteX - Voting Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="voting-container">
+        <div class="voting-box">
+            <h1>Vote for Your Candidate</h1>
+            <form id="votingForm">
+                <div class="candidate">
+                    <input type="radio" id="candidate1" name="candidate" value="Candidate 1">
+                    <label for="MESSI">
+                        <img src="01.jpg" alt="Candidate 1">
+                        <span>MESSI</span>
+                    </label>
+                </div>
+                <div class="candidate">
+                    <input type="radio" id="candidate2" name="candidate" value="Candidate 2">
+                    <label for="RONALDO">
+                        <img src="02.jpg" alt="Candidate 2">
+                        <span>RONALDO</span>
+                    </label>
+                </div>
+                <!-- Add more candidates here -->
+
+                <!-- Terms and Conditions Checkbox -->
+                <div class="input-group">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">I agree to the terms and conditions of the university</label>
+                </div>
+
+                <div class="input-group">
+                    <button type="submit">Submit Vote</button>
+                </div>
+                <p id="vote-message"></p>
+            </form>
+        </div>
+    </div>
+    <script src="voting.js"></script>
+</body>
+</html>
